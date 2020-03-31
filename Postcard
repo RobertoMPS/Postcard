@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+      <title>Postcard</title>
+      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+      <link href="https://fonts.googleapis.com/css?family=Rubik:400,500,700,900&display=swap" rel="stylesheet">
+      <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+      <div class="posicion">
+          <div class="postcard-content background_color">
+              <div class="float_left background_color">
+                  <div class="postcard-text">
+                      <h1>My Postcard</h1>
+                      <p>Look how awesome! This is a postcard that i created using HTML5 and CSS3 during my 4Geeks Academy Course!</p>
+                      <p>This is so cool, can't wait to start doing more stuff!</p>
+                  </div>
+              </div>
+              <div class="separador"></div>
+              <div class="float_right background_color">
+                  <div class="postcard-form">
+                      <img src="https://assets.breatheco.de/apis/img/icon/4geeks.png" alt="Imagen 4Geeks">
+                      <form action="#">
+                          <div class="form-content">
+                              <input type="text" name="fullname" placeholder="Some Name">
+                          </div>
+                          <input type="email " name="email " placeholder="Some Email ">
+                          <input type="text " name="comment " placeholder="Some comment ">
+                      </form>
+                  </div>
+              </div>
+              <div class="postcard-submit ">
+                  <a href="# " class="btn-form ">Send My Postcard</a>
+              </div>
+          </div>
+      </div>
+  </body>
+</html>
