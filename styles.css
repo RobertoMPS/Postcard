@@ -1,0 +1,92 @@
+body {
+    font-family: 'Rubik', sans-serif;
+    background-color: #171717;
+    margin: 0;
+}
+
+.posicion {
+    margin: 9.5% 28%;
+}
+
+.postcard-content {
+    position: fixed;
+    width: 40%;
+    padding: 20px 20px 60px 20px;
+}
+
+.background_color {
+    background-color: white;
+}
+
+.float_left {
+    float: left;
+    width: calc(50% - 20px);
+}
+
+.postcard-text h1 {
+    margin: 24px 0;
+    font-weight: 900;
+}
+
+.postcard-text p {
+    margin: 0;
+    font-size: 18px;
+    text-align: justify;
+    font-weight: 500;
+}
+
+.postcard-text p:last-of-type {
+    margin: 20px 0 30px 0;
+}
+
+.float_right {
+    float: right;
+    width: 50%;
+}
+
+.postcard-form {
+    text-align: right;
+}
+
+.postcard-form img {
+    width: 80px;
+    height: 80px;
+}
+
+.postcard-form input {
+    border: none;
+    border-bottom: 1px #afabab solid;
+    font-size: 20px;
+    margin: 0 0 16px 0;
+    width: 100%;
+}
+
+.posicion-boton {
+    width: 100%;
+    float: right;
+    padding-top: 70px;
+}
+
+.posicion-boton input {
+    padding: 20px;
+    margin: 20px;
+    float: left;
+    text-align: center;
+}
+
+.postcard-submit {
+    position: fixed;
+    margin: 20% 10% 0 15%;
+}
+
+.btn-form {
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+    background-color: #008ecd;
+    border: none;
+}
+
+.btn-form:hover {
+    background-color: #0481b6;
+}
